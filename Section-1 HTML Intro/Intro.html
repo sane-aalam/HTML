@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web3.0</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(54, 53, 53);
+        color: white;
+      }
+      /* container-css */
+      #container {
+        background-color: yellow;
+        border: 2px solid white;
+        border: 2px solid yellow;
+        position: relative;
+      }
+      .children {
+        height: 120px;
+        background-color: brown;
+        border: 3px solid black;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        flex-wrap: inherit;
+        flex-grow:unset;
+        flex-shrink: calc(4);
+        flex-flow: row;
+        flex-flow:row;
+        flex-wrap: wrap;
+      }
+      span{
+        width: 100px;
+        border: 2px solid white;
+      }
+      .direction-move{
+        text-align: center;
+      }
+
+      /* Table tag css undersanding  */
+      td:nth-child(even), th:nth-child(even) {
+      background-color: greenyellow;
+      color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- First code of the website -->
+    <h1>Hello world!</h1>
+    <h1 style="background-color: red">Hello world with different color</h1>
+    <h1 style="font-family: Arial, Helvetica, sans-serif">Heading1</h1>
+    <h2>Heading2</h2>
+    <h3>Heading3</h3>
+    <h4>Heading4</h4>
+    <h5>Heading5</h5>
+    <h6>Heading6</h6>
+
+    <hr>
+    <!-- Container Understanding by section wise -->
+    <div id="container" style="background-color: yellow">
+      <div class="children id="direction-move">
+        <span>Box 1</span>
+        <span>Box 2</span>
+        <span>Box 10</span>
+     </div>
+    </div>
+    <hr>
+    <!-- Table of basic -->
+    <br>
+    <br>
+    <table border="2px">
+      <tr>
+        <td>Section-1</td>
+        <td>Section-2</td>
+        <td>Section-3</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Css</td>
+        <td>Javascript
+        </td>
+      </tr>
+      <tr>
+        <td>React</td>
+        <td>Node</td>
+        <td>MongoDB</td>
+      </tr>
+      <tr>
+        <td>Next.js</td>
+        <td>TailwindCss</td>
+        <td>Git/Github</td>
+      </tr>
+      <tr>
+        <td>Next.js</td>
+        <td>TailwindCss</td>
+        <td>Git/Github</td>
+        <td>Git/Github</td>
+      </tr>
+      <tr>
+        <td>Next.js</td>
+        <td>TailwindCss</td>
+        <td>Git/Github</td>
+        <td>Git/Github</td>
+      </tr>
+      <tr>
+        <td>Next.js</td>
+        <td>TailwindCss</td>
+        <td>Git/Github</td>
+      </tr>
+      <tr>
+        <td>Next.js</td>
+        <td>TailwindCss</td>
+        <td>Git/Github</td>
+      </tr>
+    </table>
+    <hr>
+
+    <!-- Br/hr tag -->
+    <br>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, fugiat.</p>
+    <p>Lorem <b>ipsum</b> dolor sit amet consectetur adipisicing elit. Consectetur, tempora!</p>
+    <p><i>Lorem ipsum dolor</i>, sit amet consectetur adipisicing elit. Repellendus, dolorum.</p>
+    <p>Lorem ipsum <strong>dolor</strong> sit amet.</p>
+    <pre>
+      <!-- actual from the the content -->
+      doesn't not read spacing the content 
+      Tag the of                      code of aah Javascript
+    </pre>
+    <hr>
+
+    <br><br>
+    <br><br>
+    <br><br>
+  </body>
+</html>

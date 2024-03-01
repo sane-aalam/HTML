@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- responsive meta tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML responsive</title>
+    <style>
+      @media screen and (min-width: 720px) {
+        #img1 {
+          width: 100px;
+        }
+        #img2 {
+          width: 300px;
+        }
+      }
+      #img1:hover {
+        border: 2px solid red;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="font-family: Arial, Helvetica, sans-serif">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi iure
+        autem dicta culpa cumque velit sint reiciendis reprehenderit repudiandae
+        animi! Nulla nam magni commodi deserunt accusamus aperiam odio, odit
+      </p>
+      <div class="img">
+        <img
+          src="https://picsum.photos/seed/picsum/200/300"
+          alt="Img1"
+          width="250px"
+          id="img1"
+          ;
+        />
+        <img
+          src="https://picsum.photos/seed/picsum/200/300"
+          alt="Img1"
+          width="100px"
+          id="img2"
+        />
+      </div>
+    </div>
+  </body>
+</html>

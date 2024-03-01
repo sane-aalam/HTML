@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML short-cut</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        margin: 20px;
+        border: 2px solid gray;
+      }
+      .container {
+        background-color: gray;
+        padding: 20px;
+      }
+
+      .sub-modification {
+        background-color: red;
+      }
+
+      #not-modification {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- short ticks and tips in HTML -->
+    <div class="container">
+      <h1>short tricks</h1>
+      <br />
+      <div class="sub-class">
+        <p>subclass</p>
+        <p>subclass</p>
+        <p>subclass</p>
+      </div>
+      <div class="list-conatiner">
+        <ul>
+          <li><a href="htttp://www.goggle.com">link-google</a></li>
+          <li><a href="facebook.com">link-google</a></li>
+          <li><a href="yahoo.com">link-google</a></li>
+        </ul>
+      </div>
+
+      <!-- id and class understaning -->
+      <div class="sub-modification">this is class div</div>
+      <div class="sub-modification">this is class div</div>
+      <div class="sub-modification">this is class div</div>
+
+      <div id="not-modification">This is id class div</div>
+
+      <!-- div and span -->
+      <!-- inline block element,always take full width -->
+      <div class="grandfather">
+        <div class="father">
+          <div class="child">child1</div>
+          <div class="child">child2</div>
+          <div class="child">child3</div>
+          <div class="child">child4</div>
+          <div class="child">child5</div>
+        </div>
+      </div>
+
+      <!-- Inile element, according the content take width -->
+      <span class="grandmother">
+        <span class="mother">
+          <span>thid is snap</span>
+          <span>thid is snap</span>
+          <span>thid is snap</span>
+          <span>thid is snap</span>
+          <span>thid is snap</span>
+        </span>
+      </span>
+    </div>
+  </body>
+</html>
