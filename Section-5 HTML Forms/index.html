@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML forms</title>
+    <style>
+      * {
+        background-color: rgb(244, 242, 242);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="text">First Name</label>
+      <input type="text" name="sane-aalam" id="text" />
+      <br />
+      <label for="text">Last Name</label>
+      <input type="text" name="sane-aalam" id="text" />
+      <br />
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label>
+
+      <br />
+      <form action="/action_page.php">
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="John" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+        <input type="submit" value="Submit" />
+        <input type="date" />
+        <input type="checkbox" name="" id="" /> <br />
+        <input type="email" name="" id="" /> <br />
+        <input type="color" name="" id="" /> <br />
+        <input type="month" name="" id="" /> <br />
+        <input type="password" name="" id="" /> <br />
+        <input type="hidden" name="" />
+        <input type="file" name="" id="" />
+        <input type="reset" value="" />
+        <input type="range" name="" id="" />
+        <input type="time" name="" id="" />
+      </form>
+    </form>
+  </body>
+</html>
