@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<title>Example</title>
+<style>
+  * {
+    margin: 10px;
+    padding: 10px;
+  }
+  .container {
+    background-color: brown;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-columns: 80px 200px auto 40px; */
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    /* column-gap and row-gap */
+    /* more we will learn bluid projects */
+  }
+  .sub-conatiner {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
+<div class="container">
+  <div class="sub-conatiner">div1</div>
+  <div class="sub-conatiner">div2</div>
+  <div class="sub-conatiner">div3</div>
+  <div class="sub-conatiner">div4</div>
+</div>

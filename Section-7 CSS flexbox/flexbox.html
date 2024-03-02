@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<title>Example</title>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    flex-wrap: wrap;
+  }
+  .container > div {
+    font-size: 5vw;
+    padding: 0.5em;
+    color: white;
+    margin: 10px;
+    border-radius: 3px;
+    background: yellowgreen;
+    border: 5px solid black;
+  }
+
+  /* odd-child */
+  .container > div:nth-child(odd) {
+    width: 120%;
+  }
+  /* even-child */
+  .container > div:nth-child(even) {
+    width: 20%;
+  }
+  /* 2,4,9 child */
+  .container > div:nth-child(2),
+  .container > div:nth-child(4),
+  .container > div:nth-child(9) {
+    width: 60%;
+  }
+  body {
+    margin: 0;
+  }
+</style>
+<div class="container">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
